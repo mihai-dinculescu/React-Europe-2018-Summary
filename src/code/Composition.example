@@ -1,0 +1,56 @@
+class ChildComponent extends Component {
+  constructor() {
+    super();
+    // internal variable, not state or props
+    this.renderCount = 0;
+  }
+
+  render() {
+    return (
+      <div>
+        <h3>
+          ChildComponent has been rendered
+          {++this.renderCount} time(s)
+        </h3>
+      </div>
+    );
+  }
+}
+
+class ButtonComponent extends Component {
+  constructor() {
+    super();
+
+    this.state = { count: 0 };
+
+    this.onClick = () => {
+        this.setState({
+            count: this.state.count + 1
+        });
+    };
+  }
+
+  render() {
+      return (
+          <div>
+              <button onClick={this.onClick}>
+                  Clicked {this.state.count} times
+              </button>
+              <ChildComponent />
+          </div>
+      );
+  }
+}
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Component Composition Example</h1>
+        <ButtonComponent />
+      </div>
+    );
+  }
+}
+
+render(<App />);

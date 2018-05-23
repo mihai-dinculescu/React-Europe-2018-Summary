@@ -1,0 +1,34 @@
+import React from "react";
+import { render } from "react-dom";
+
+class MyComponent extends React.Component {
+  static defaultProps = {
+    name: "Chris"
+  };
+
+  state = {
+    age: 35
+  };
+
+  render() {
+    return this.props.render(
+      this.props,
+      this.state
+    );
+  }
+}
+
+const App = () => (
+  <MyComponent
+    render={
+      (props, state) => (
+        `${props.name} is now ${state.age}`
+      )
+    }
+  />
+);
+
+render(
+  <App />,
+  document.getElementById("root"),
+);

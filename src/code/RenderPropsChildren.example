@@ -1,0 +1,23 @@
+import React from 'react';
+import { render } from 'react-dom';
+
+class MyComponent extends React.Component {
+  render() {
+    return this.props.children(
+      { label: 'world' }
+    );
+  }
+}
+
+const App = () => (
+  <MyComponent>
+    {(args) => (
+      <p>Hello {args.label}</p>
+    )}
+  </MyComponent>
+);
+
+render(
+  <App />,
+  document.getElementById("root"),
+);
