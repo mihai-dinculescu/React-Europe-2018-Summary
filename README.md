@@ -1,12 +1,12 @@
 # React Europe 2018 Summary
 
 ## Mentioned talks
-Immutable Application Architecture by Lee Byron - React Europe 2018 https://www.youtube.com/watch?v=oTcDmnAXZ4E  
-Replicated Redux by Jim Purbrick - React Europe 2018 https://www.youtube.com/watch?v=Fr3vp0C22H0  
-The Case for Whimsy	by Joshua Comeau - React Europe 2018 https://www.youtube.com/watch?v=Z2d9rw9RwyE  
-Beyond React by Devin Abbott - React Europe 2018 https://www.youtube.com/watch?v=HVwLOcllTfI  
-Keynote by Ken Wheeler - React Europe 2018 https://www.youtube.com/watch?v=QFk6YwMz8nc  
-Seven Deadly Sins by Sara Vieira - React Europe 2018 https://www.youtube.com/watch?v=gAHQ02xU2Rw  
+**Immutable Application Architecture** by Lee Byron - React Europe 2018 https://www.youtube.com/watch?v=oTcDmnAXZ4E  
+**Replicated Redux** by Jim Purbrick - React Europe 2018 https://www.youtube.com/watch?v=Fr3vp0C22H0  
+**The Case for Whimsy**	by Joshua Comeau - React Europe 2018 https://www.youtube.com/watch?v=Z2d9rw9RwyE  
+**Beyond React** by Devin Abbott - React Europe 2018 https://www.youtube.com/watch?v=HVwLOcllTfI  
+**Keynote** by Ken Wheeler - React Europe 2018 https://www.youtube.com/watch?v=QFk6YwMz8nc  
+**Seven Deadly Sins** by Sara Vieira - React Europe 2018 https://www.youtube.com/watch?v=gAHQ02xU2Rw  
 
 ## Other noteworthy talks
 Beyond React 16 by Dan Abramov - JSConf Iceland ⚛ https://www.youtube.com/watch?v=v6iR3Zk4oDY  
