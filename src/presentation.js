@@ -382,7 +382,7 @@ This output is then used to render the Component on the Web, as React and on iOS
         <Slide bgColor="teal">
           <SectionStart title="fin" />
           <Heading size={6} textColor="white">
-            (show the deadly sins video, 18+)
+            (show the deadly sins video, 12+)
           </Heading>
           <a href="https://www.youtube.com/watch?v=gAHQ02xU2Rw">https://www.youtube.com/watch?v=gAHQ02xU2Rw</a>
         </Slide>
