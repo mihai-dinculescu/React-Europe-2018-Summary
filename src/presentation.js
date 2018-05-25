@@ -116,7 +116,7 @@ export default class Presentation extends React.Component {
 
         <Slide bgColor="#000000">
           <Heading textFont="secondary" textColor="pink" size={4}>
-            ...and I've took lame selfies :(
+            ...and I took lame selfies :(
           </Heading>
           <br />
           <FullscreenImage src={me2} width='45%' />
@@ -380,13 +380,6 @@ This output is then used to render the Component on the Web, as React and on iOS
         </Slide>
 
         <Slide bgColor="teal">
-          <Heading size={6} textColor="white">
-            (show the deadly sins video, 12+)
-          </Heading>
-          <a href="https://www.youtube.com/watch?v=gAHQ02xU2Rw">https://www.youtube.com/watch?v=gAHQ02xU2Rw</a>
-        </Slide>
-
-        <Slide bgColor="teal">
           <Heading size={1} textColor="white">
             Thank you!
           </Heading>
@@ -396,6 +389,17 @@ This output is then used to render the Component on the Web, as React and on iOS
             GitHub
           </Heading>
           <a href="https://github.com/mihai-dinculescu/React-Europe-2018-Summary">https://github.com/mihai-dinculescu/React-Europe-2018-Summary</a>
+        </Slide>
+
+        <Slide bgColor="teal">
+          <Heading size={1} textColor="white">
+            fin
+          </Heading>
+          <br /><br />
+          <Heading size={6} textColor="white">
+            (show the deadly sins video, 12+)
+          </Heading>
+          <a href="https://www.youtube.com/watch?v=gAHQ02xU2Rw">https://www.youtube.com/watch?v=gAHQ02xU2Rw</a>
         </Slide>
       </Deck >
     );
